@@ -23,10 +23,3 @@ class Restaurante:
     @property
     def ativo(self):
         return '☑' if self._ativo else '☐'
-
-restaurante_praca = Restaurante('Praça', 'Gourmet')
-restaurante_pizza = Restaurante('Pizza Express', 'Pizza')
-
-restaurante_praca.alternar_estado()
-
-Restaurante.listar_restaurantes()
